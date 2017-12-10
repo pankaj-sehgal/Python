@@ -1,0 +1,19 @@
+# coding: utf-8
+
+'''
+Sequesntial Search
+'''
+
+def sequential_Search(item_list, item):
+	
+	for i in range(len(item_list)):
+		#print item_list[i]
+
+		if (item == item_list[i]):
+			print "Found the item"
+		else:
+			print ""
+
+
+
+print(sequential_Search([1,2,3,4,5,6],5))
